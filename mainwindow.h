@@ -54,6 +54,25 @@ private slots:
 
     void on_BNumdiv_clicked();
 
+    void on_BSin_clicked();
+
+    void on_BCos_clicked();
+
+    void on_Btg_clicked();
+
+    void on_Bpower_clicked();
+
+    void on_BExp_clicked();
+
+    void on_BLn_clicked();
+
+    void on_BLeftparenthesis_clicked();
+
+    void on_BRightparenthesis_clicked();
+
+    void on_BNumdel_pressed();
+    void keyPressEvent(QKeyEvent *ev);
+
 private:
     Ui::MainWindow *ui;
 };
