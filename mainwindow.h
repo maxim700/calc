@@ -46,7 +46,6 @@ private slots:
 
 
 
-    void on_BNumdel_clicked();
 
     void on_BNumcalc_clicked();
 

@@ -1,12 +1,13 @@
 #ifndef CALCLOGIC_H
 #define CALCLOGIC_H
-#include "mainwindow.h"
+#include <string>
 
 
 class CalcLogic
 {
 public:
-    static QString calculation(QString x);
+    //Логика калькулятора
+    static std::string calculation(std::string x);
 };
 
 #endif // CALCLOGIC_H
